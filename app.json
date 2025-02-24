@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "PillPal",
+    "slug": "salud-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pilli.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/pilli.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuempresa.saludapp"
+    },
+    "android": {
+      "sound": true,
+      "package": "com.gyman.saludapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pilli.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "NOTIFICATIONS",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "FOREGROUND_SERVICE",
+        "SYSTEM_ALERT_WINDOW",
+        "ACCESS_NOTIFICATIONS",
+        "POST_NOTIFICATIONS",
+        "VIBRATE"
+      ]
+    },
+    "useNextNotificationsApi": true,
+    "notification": {
+      "icon": "./assets/pilli.jpg",
+      "color": "#000000"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "86676a39-06fb-4e7c-959f-37954953ef32"
+      }
+    }
+  },
+  "web": {
+    "favicon": "./assets/pilli.jpg"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "86676a39-06fb-4e7c-959f-37954953ef32"
+    }
+  },
+  "owner": "geryiman"
+}
